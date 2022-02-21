@@ -23,6 +23,8 @@ body {
     position: fixed;
     top: 0;
     border-bottom: 1px solid seashell;
+    z-index: 999;
+    background-color: black;
 }
 
 .navbar nav {
@@ -36,7 +38,6 @@ body {
 
 .navbar ul {
     float: right;
-    vertical-align: middle;
     line-height: 2.156rem;
 }
 
@@ -48,4 +49,105 @@ body {
 .navbar a {
     color: seashell;
     text-decoration: underline;
+}
+
+.container {
+    width: 75rem;
+    margin-top: 4.312rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    height: 43.75rem;
+    background-image: url('./img/img-mission-background.webp');
+    background-size: cover;
+}
+
+.banner div {
+    position: relative;
+    top: 50%;
+    background-color: black;
+    padding: 1rem;
+    line-height: 3rem;
+}
+
+.middle {
+    width:62.5rem;
+    margin: 4rem auto;
+}
+
+.text {
+    padding: 1rem;
+    line-height: 3rem;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items figure {
+    flex-basis: 18.75rem;
+    margin: 0.7rem;
+}
+
+.items figcaption {
+    margin-top: 0.5rem;
+}
+
+.items img {
+    flex-basis: 18.75rem;
+    height: 12.5rem;
+}
+
+.locations {
+    height: 31.25rem;
+    width:62.5rem;
+    margin: 4rem auto;
+    background-image: url(./img/img-locations-background.webp);
+    background-size: cover;
+}
+
+#locations {
+    padding-top: 5rem;
+}
+
+
+.branches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0.9rem 0;
+}
+
+.addr {
+    background-color: black;
+    opacity: 1;
+    line-height: 3rem;
+    padding: 1rem 2rem;
+    margin: 0 0.7rem;
+    flex-basis: 19rem;
+    font-size: 1rem;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footerContent {
+    height: 12.5;
+}
+
+.footerContent div {
+    line-height: 4rem;
+    padding-bottom: 1rem;
+}
+
+.copyright {
+    height: 3.125rem;
+    text-align: left;
+    padding: 0 1.25rem;
 }
